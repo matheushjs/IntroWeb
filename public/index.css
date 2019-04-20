@@ -6,6 +6,7 @@ body {
   background: linear-gradient(178deg, #063131 0%, #212121 50%);
   color: white;
   height: 30vh;
+  margin-bottom: 20px;
 }
 
 .big-header h1 {
