@@ -9,8 +9,6 @@ const minify = require("express-minify");
 
 const app = express();
 
-app.set("views", path.join(__dirname, "public"));
-
 /**
  * Sets logging for debugging & control.
  *

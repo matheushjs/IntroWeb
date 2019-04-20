@@ -1,0 +1,14 @@
+body {
+  background: lightgrey;
+}
+
+.big-header {
+  background: linear-gradient(178deg, #063131 0%, #212121 50%);
+  color: white;
+  height: 30vh;
+}
+
+.big-header h1 {
+  padding-top: 12vh;
+  font-family: serif;
+}
