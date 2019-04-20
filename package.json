@@ -1,0 +1,30 @@
+{
+  "name": "IntroWeb",
+  "version": "1.0.0",
+  "description": "Trabalho de introdução à web.",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "NODE_ENV=production node src/app.js",
+    "devstart": "nodemon --ext js,ejs,html,css,yml,yaml src/app.js;"
+  },
+  "author": "Matheus, Sérgio, Guilherme",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "compression": "^1.7.4",
+    "cookie-session": "^2.0.0-beta.3",
+    "express": "^4.16.3",
+    "express-minify": "^1.0.0",
+    "js-yaml": "^3.12.0",
+    "morgan": "^1.9.0",
+    "sqlite3": "^4.0.2"
+  },
+  "devDependencies": {
+    "eslint": "^5.16.0",
+    "nodemon": "^1.18.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/matheushjs/IntroWeb.git"
+  }
+}
